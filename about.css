@@ -1,0 +1,111 @@
+/* Seus estilos anteriores */
+
+/* Estilos para animar os textos */
+.animated-text {
+    opacity: 0;
+    animation: moveText 4s forwards;
+    animation-delay: 1s;
+    font-family:courier new,arial,helvetica;
+}
+
+.text-1 {
+    animation-delay: 1s;
+    color: #ff1593; /* Cor vermelha para o texto 1 */
+}
+
+.text-2 {
+    animation-delay: 2s;
+    color: #239800; /* Cor verde para o texto 2 */
+}
+
+.text-3 {
+    animation-delay: 3s;
+    color: #0081ff; /* Cor azul para o texto 3 */
+}
+
+.text-4 {
+    animation-delay: 4s;
+    color: #e48585; /* Cor roxa para o texto 4 */
+    
+}
+
+.text-5 {
+    animation-delay: 5s;
+    color: #8f00ff; /* Cor roxa para o texto 4 */
+
+}
+
+@keyframes moveText {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Estilo para o vídeo de fundo */
+#video-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Para cobrir toda a tela */
+    z-index: 1; /* Coloque o vídeo na frente de outros elementos */
+}
+
+/* Estilo para o elemento de fundo à frente (branco com bordas cortadas e centralizado) */
+.background-overlay {
+    background-color: white; /* Cor branca */
+    position: fixed;
+    top: 12%; /* Ajuste a altura do topo conforme necessário */
+    left: 50%; /* Centralize horizontalmente no meio da página */
+    transform: translateX(-50%); /* Centralize o elemento horizontalmente */
+    width: 80%; /* Ajuste a largura conforme necessário */
+    height: 70%; /* Ajuste a altura conforme necessário */
+    border-top-left-radius: 25px; /* Borda superior esquerda arredondada */
+    border-top-right-radius: 25px; /* Borda superior direita arredondada */
+    border-bottom-left-radius: 25px; /* Borda inferior esquerda arredondada */
+    border-bottom-right-radius: 25px; /* Borda inferior direita arredondada */
+    z-index: 2; /* Coloque-o à frente do vídeo de fundo */
+
+    /* Adicione sombras para o efeito 3D */
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2); /* Sombra inferior */
+    border: 2px solid rgba(0, 0, 0, 0.2); /* Borda fina com transparência */
+}
+
+/* Estilo para o texto em 3D */
+.text-3d {
+    font-size: 35px; /* Tamanho da fonte */
+    color: #333; /* Cor do texto (escura) */
+    text-align: center; /* Centralize o texto horizontalmente */
+    margin-top: -5px; /* Espaçamento superior aumentado para mover o texto para cima */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra 3D */
+}
+
+/* Estilo para o conteúdo no centro superior */
+.centered-content {
+    text-align: center; /* Centralize o texto horizontalmente */
+    padding: 25px; /* Espaçamento interno */
+
+}
+
+/* Estilo para a imagem redonda com sombra mais forte */
+.rounded-image {
+    border-radius: 50%; /* Faça a imagem ficar redonda */
+    width: 150px; /* Tamanho da imagem (ajuste conforme necessário) */
+    height: 150px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.5); /* Efeito de sombra 3D mais forte */
+}
+
+/* Estilo para o título médio */
+h3 {
+    margin-top: 3em;
+    font-size: 18px;
+}
+
+.text-adm {
+    font-weight: bold; /* Opcional: torna o texto em negrito */
+    font-family:arial sans,arial,helvetica;
+    font-size: 18px;
+}
+

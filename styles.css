@@ -1,0 +1,238 @@
+/* Estilos Globais */
+body {
+    font-family: Arial, sans-serif; /* Fonte genérica */
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #0000;
+    color: #fff;
+    padding: 21px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+#logo {
+    display: flex;
+    align-items: center;
+}
+
+/* Estilos para a logo */
+#logo img {
+    max-width: 80px; /* Ajuste o tamanho máximo da imagem aqui */
+    height: auto; /* Isso mantém a proporção da imagem */
+    margin-right: 10px;
+    border-radius: 58%;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
+}
+
+ h1 {
+  font-size: 30px;
+  margin: 0 auto; /* Isso centraliza horizontalmente */
+  font-style: italic;
+  font-weight: bold;
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
+  margin-left: -26px; /* Ajusta o afastamento para a esquerda */
+}
+
+main {
+    padding: 23px;
+}
+
+header {
+    background: linear-gradient(135deg, #833ab4, #fd1d1d, #fcb045);
+    background-size: 400% 400%;
+}
+
+
+
+body {
+    background: linear-gradient(to bottom, #007094c5, #814ce5, #00748b);
+    /* Substitua 'seu-elemento' pelo seletor CSS do elemento desejado */
+    /* Você pode ajustar as cores e direções conforme necessário */
+}
+
+section {
+    margin-bottom: 26px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    border-top: 2px solid #fff;
+    border-radius: 0px;
+}
+
+/* Estilos para o menu lateral */
+.menu-container {
+    position: fixed;
+    top: 0;
+    right: -230px;
+    width: 230px;
+    height: 80%;
+    background-color: #333;
+    overflow-y: auto;
+    transition: 0.6s;
+    border-radius: 19px;
+    z-index: 1; /* Defina um z-index maior */
+}
+
+/* Estilos para animação do menu */
+.menu-container.active {
+    right: 0;
+    width: 280px; /* Largura quando o menu estiver ativo */
+}
+
+.menu-button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 30px;
+    cursor: pointer;
+    color: white;
+}
+
+.menu-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 27px;
+}
+
+.menu-header h2 {
+    margin: 10px 37px 10px 0; /* Aumentei o valor da margem esquerda para 40px */
+}
+
+.menu-items {
+    padding: 10px 27px;
+}
+
+.menu-items a {
+    display: block;
+    padding: 10px 0;
+    color: white;
+    text-decoration: none;
+    font-family: Arial, sans-serif; /* Fonte genérica */
+    background-color: #819ac2; /* Adiciona o background aos itens do menu */
+    border-radius: 10px;
+    margin: 8px 0;
+    text-align: center; /* Centralize o texto horizontalmente */
+}
+
+.menu-items a:hover {
+    background-color: #7136d9; /* Cor de fundo ao passar o mouse */
+}
+
+/* Estilos para animação do menu */
+.menu-container.active {
+    right: 0;
+}
+
+/* Estilo padrão para o botão */
+#discordButton {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s, border 0.3s;
+}
+
+/* Estilo do botão quando hover (passar o mouse sobre) */
+#discordButton:hover {
+    background-color: #7b2bff9f;
+    border: 3px solid #fff;
+}
+
+/* Estilo do botão quando clicado */
+#discordButton:active {
+    background-color: #216a94;
+}
+
+/* Estilos para as âncoras do menu */
+.menu-items a {
+    display: block;
+    padding: 10px 0;
+    color: white;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    border: 3px solid white; /* Aumente a largura da borda para 2px */
+    border-radius: 10px;
+    margin: 8px 0;
+    text-align: center;
+    background: none; /* Remova o fundo */
+}
+
+/* Estilo de hover para as âncoras do menu */
+.menu-items a:hover {
+    background-color: #d92486; /* Cor de fundo ao passar o mouse */
+}
+
+/* Estilo para quando uma âncora é clicada */
+.menu-items a:active {
+    background-color: #d924627e; /* Cor roxa quando clicado */
+}
+
+/* Estilo para o botão de fechar o menu */
+.menu-button img {
+    /* Suas configurações de estilo aqui */
+    width: 33px;
+    height: 36px;
+    padding: 1px 5px;
+    /* Adicione qualquer outro estilo que desejar aqui */
+}
+
+.menu-container {
+    background: linear-gradient(135deg, #55ffc1, #004a6e, #55ffc1);
+    background-size: 400% 400%;
+    animation: gradientBG 6s ease infinite;
+}
+
+@keyframes gradientBG {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+#introsite {
+    width: 100%; /* Largura do vídeo (pode ajustar conforme necessário) */
+    max-width: 800px; /* Largura máxima do vídeo */
+    margin: 0 auto; /* Centralizar o vídeo na página */
+    display: block;/
+}
+
+/* Adicione isso ao seu arquivo styles.css ou em uma tag <style> no cabeçalho do seu HTML */
+h1 {
+  text-align: center; /* Isso centraliza o texto horizontalmente */
+}
+
+.rounded-gif {
+  width: 50px; /* Largura desejada */
+  height: 50px; /* Altura desejada */
+  border-radius: 50%; /* Isso cria um círculo */
+  object-fit: cover; /* Isso faz com que a imagem preencha o círculo */
+  margin-left: -18px;  
+}
+
+#introsite {
+    position: relative; /* Adicione esta linha */
+    z-index: -1; /* Defina um z-index negativo */
+}
